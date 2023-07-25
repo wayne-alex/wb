@@ -1,0 +1,33 @@
+2023/07/25-07:26:43.122 2a38 Reusing MANIFEST c:\Users\wayne\bot\.wwebjs_auth\session-wayne\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/25-07:26:43.158 2a38 Recovering log #58
+2023/07/25-07:26:43.569 2a38 Reusing old log c:\Users\wayne\bot\.wwebjs_auth\session-wayne\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000058.log 
+2023/07/25-07:27:05.237 1978 Level-0 table #66: started
+2023/07/25-07:27:05.942 1978 Level-0 table #66: 1294174 bytes OK
+2023/07/25-07:27:06.067 1978 Delete type=0 #58
+2023/07/25-07:27:06.650 1a38 Compacting 1@1 + 4@2 files
+2023/07/25-07:27:09.695 1a38 Generated table #67@1: 35222 keys, 2206080 bytes
+2023/07/25-07:27:10.319 1a38 Generated table #68@1: 15530 keys, 2176451 bytes
+2023/07/25-07:27:10.747 1a38 Generated table #69@1: 108864 keys, 2262360 bytes
+2023/07/25-07:27:10.945 1a38 Generated table #70@1: 12015 keys, 250112 bytes
+2023/07/25-07:27:10.945 1a38 Compacted 1@1 + 4@2 files => 6895003 bytes
+2023/07/25-07:27:10.988 1a38 compacted to: files[ 0 0 4 0 0 0 0 ]
+2023/07/25-07:27:10.988 1a38 Delete type=2 #60
+2023/07/25-07:27:10.988 1a38 Delete type=2 #61
+2023/07/25-07:27:10.988 1a38 Delete type=2 #62
+2023/07/25-07:27:10.988 1a38 Delete type=2 #63
+2023/07/25-07:27:10.989 1a38 Delete type=2 #66
+2023/07/25-07:54:44.995 2cac Level-0 table #72: started
+2023/07/25-07:54:45.194 2cac Level-0 table #72: 1257386 bytes OK
+2023/07/25-07:54:45.265 2cac Delete type=0 #65
+2023/07/25-07:54:45.540 1a38 Compacting 1@1 + 4@2 files
+2023/07/25-07:54:46.057 1a38 Generated table #73@1: 38045 keys, 2219503 bytes
+2023/07/25-07:54:46.537 1a38 Generated table #74@1: 15478 keys, 2180148 bytes
+2023/07/25-07:54:47.003 1a38 Generated table #75@1: 100496 keys, 2251780 bytes
+2023/07/25-07:54:47.207 1a38 Generated table #76@1: 21853 keys, 457037 bytes
+2023/07/25-07:54:47.207 1a38 Compacted 1@1 + 4@2 files => 7108468 bytes
+2023/07/25-07:54:47.244 1a38 compacted to: files[ 0 0 4 0 0 0 0 ]
+2023/07/25-07:54:47.244 1a38 Delete type=2 #67
+2023/07/25-07:54:47.244 1a38 Delete type=2 #68
+2023/07/25-07:54:47.244 1a38 Delete type=2 #69
+2023/07/25-07:54:47.244 1a38 Delete type=2 #70
+2023/07/25-07:54:47.244 1a38 Delete type=2 #72

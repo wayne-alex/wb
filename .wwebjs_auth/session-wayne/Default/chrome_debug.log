@@ -1,0 +1,49 @@
+[0725/072641.785:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[0725/072641.786:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[0725/072641.795:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0725/072641.795:ERROR:entry_impl.cc(1076)] No file for c1030296
+[0725/072641.795:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:ERROR:entry_impl.cc(1076)] No file for c103029c
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.796:ERROR:entry_impl.cc(1076)] No file for c1030298
+[0725/072641.798:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.798:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/072641.799:WARNING:storage_block-inl.h(147)] Failed data load.
+[0725/073708.668:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073718.954:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073727.906:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073738.223:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073747.224:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073757.864:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073806.495:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073809.941:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073817.116:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073817.116:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
+[0725/073817.116:INFO:CONSOLE(43)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (43)
+[0725/073825.777:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073829.193:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073837.511:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073845.060:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073856.793:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073856.793:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
+[0725/073856.793:INFO:CONSOLE(43)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (43)
+[0725/073904.313:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073923.547:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/073928.092:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
+[0725/073928.092:INFO:CONSOLE(43)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (43)
+[0725/074037.515:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074056.766:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074143.743:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074143.743:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074144.902:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074203.012:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074203.012:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074204.216:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074223.531:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0725/074234.953:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
