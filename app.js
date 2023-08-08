@@ -1,3 +1,4 @@
+const axios = require('axios');
 const qrcode = require('qrcode-terminal');
 const { Client, Location, List, Buttons, LocalAuth } = require('whatsapp-web.js');
 
@@ -42,8 +43,28 @@ client.on('message', async msg => {
     } else if (msg.body === '!ping') {
         // Send a new message to the same chat
         client.sendMessage(msg.from, 'pong');
+    } else if (msg.body.startsWith('$')) {
+    const apiUrl = 'http://13.51.196.90:2001/sendMessage'; // Update the URL if your server is running on a different port or domain
 
-    } else if (msg.body.startsWith('!sendto ')) {
+    const sendMessage = async (message) => {
+        try {
+            const response = await axios.post(apiUrl, { message });
+            console.log('Response:', response.data);
+
+            const messageToSend = response.data.response; // Extract the message content
+            console.log('Message to send:', messageToSend);
+        
+            client.sendMessage(msg.from, messageToSend);
+        } catch (error) {
+            client.sendMessage(msg.from, error);
+        }
+    };
+
+    let message = msg.body.substring(1); // Remove the '$' character
+    sendMessage(message); // Use the modified message
+
+}
+ else if (msg.body.startsWith('!sendto ')) {
         // Direct send a new message to specific id
         let number = msg.body.split(' ')[1];
         let messageIndex = msg.body.indexOf(number) + number.length;
@@ -228,7 +249,7 @@ client.on('message', async msg => {
 // 
 async function sendVerificationCode(phoneNumber,verificationCode) {
   const phone = phoneNumber; // Replace this with the phone number to send the verification code
-  const message = `Your SmartCash Verification code is: ${verificationCode}`;
+  const message = `Your Instavibe Verification code is: ${verificationCode}`;
 
   const sanitized_number = phone.toString().replace(/[- )(]/g, ""); // remove unnecessary chars from the number
   const final_number = `254${sanitized_number.substring(sanitized_number.length - 10)}`; // add 91 before the number here 91 is country code of India
